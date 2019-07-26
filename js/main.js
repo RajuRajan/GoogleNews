@@ -16,7 +16,7 @@
         var city= document.getElementById('city');
        
         console.log(document.getElementById('city').value);
-           fetch('http://api.apixu.com/v1/forecast.json?key=2d46596bd8c0492bac5101629192607&q='+city.value+'&days=3', {
+           fetch('https://api.apixu.com/v1/forecast.json?key=2d46596bd8c0492bac5101629192607&q='+city.value+'&days=3', {
               
             method : 'GET'
         }).then((response) => {
